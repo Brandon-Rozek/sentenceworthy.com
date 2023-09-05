@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>Sentence Worthy</ShortName>
+	<Description></Description>
+	<Url type="text/html" method="get" template="https://sentenceworthy.com/?s={searchTerms}"></Url>
+	<Url type="application/atom+xml" method="get" template="https://sentenceworthy.com/feed/atom/?s={searchTerms}" />
+	<Url type="application/rss+xml" method="get" template="https://sentenceworthy.com/feed/?s={searchTerms}" />
+	<Url type="application/x-suggestions+json" method="get" template="https://sentenceworthy.com/wp-json/opensearch/1.1/suggestions?s={searchTerms}"/>
+	<Contact>maxo2708@hotmail.com</Contact>
+	<LongName>Sentence Worthy Web Search</LongName>
+	<Tags>wordpress blog</Tags>
+	<Query role="example" searchTerms="blog" />
+	<Developer>johnnoone, Matthias Pfefferle</Developer>
+	<Language>en-US</Language>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	<InputEncoding>UTF-8</InputEncoding>
+	</OpenSearchDescription>

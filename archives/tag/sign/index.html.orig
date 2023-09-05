@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+    <title>
+        Sign Archives | Sentence Worthy    </title>
+    <link rel="stylesheet" href="../../../wp-content/themes/depictLife/style.css%3Fver=2.0.5.css"/>
+    <link rel="alternate" type="application/rss+xml" title="Sentence Worthy" href="../../../feed/index.html" />
+    <link rel="pingback" href="https://sentenceworthy.com/xmlrpc.php">
+    
+<!-- This site is optimized with the Yoast SEO plugin v4.4 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="index.html" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="object" />
+<meta property="og:title" content="Sign Archives | Sentence Worthy" />
+<meta property="og:url" content="https://sentenceworthy.com/archives/tag/sign/" />
+<meta property="og:site_name" content="Sentence Worthy" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Sign Archives | Sentence Worthy" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='https://s.w.org/' />
+<link rel="alternate" type="application/rss+xml" title="Sentence Worthy &raquo; Sign Tag Feed" href="feed/index.html" />
+<link rel='stylesheet' id='kind-css'  href='../../../wp-content/plugins/indieweb-post-kinds/css/kind.min.css%3Fver=2.5.0.css' type='text/css' media='all' />
+<link rel='stylesheet' id='indieweb-css'  href='../../../wp-content/plugins/indieweb/css/indieweb.css%3Fver=9f3b8dc1682285c37912771046a2d39b.css' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='../../../wp-json/index.html' />
+
+<link rel="search" type="application/opensearchdescription+xml" title="Search Sentence Worthy" href="../../../wp-json/opensearch/1.1/document" />
+<link rel="micropub" href="https://sentenceworthy.com/?micropub=endpoint"><link rel="authorization_endpoint" href="https://indieauth.com/auth"><link rel="token_endpoint" href="https://tokens.indieauth.com/token"><link rel="http://webmention.org/" href="../../../wp-json/webmention/1.0/endpoint.html" />
+<link rel="webmention" href="../../../wp-json/webmention/1.0/endpoint.html" />
+</head>
+
+<body>
+    <header role="banner">
+        <h1 class="logo"><a href="../../../index.html">Sentence Worthy</a></h1>
+    </header>
+<link rel="stylesheet" href="../../../wp-content/themes/depictLife/style-home.css%3Fver=2.0.5.css"/>
+<main role="main">
+   <section class="tags">
+       Tags: <a href="../night-time/index.html">Night&nbsp;Time (2)</a><a href="index.html">Sign (1)</a><a href="../pacman/index.html">pacman (1)</a><a href="../nostalgia/index.html">nostalgia (1)</a><a href="../fireworks/index.html">Fireworks (1)</a><a href="../construction/index.html">Construction (1)</a><a href="../airplane/index.html">Airplane (1)</a>   </section>
+   <h2 class='tag-cat-name'>Sign</h2>    <article class='h-entry' role='article'><h2 class='title p-name'><a class='u-url' href='../../../index.html%3Fp=24.html'>3.</a></h2><time class='date'>September 15, 2015</time><p><img class="alignnone size-full wp-image-62" src="../../../wp-content/uploads/2015/09/1207141718b-1.jpg" alt="Stop sign fallen over" width="4160" height="2340" srcset="../../../wp-content/uploads/2015/09/1207141718b-1.jpg 4160w, ../../../wp-content/uploads/2015/09/1207141718b-1-300x169.jpg 300w, ../../../wp-content/uploads/2015/09/1207141718b-1-768x432.jpg 768w, ../../../wp-content/uploads/2015/09/1207141718b-1-1024x576.jpg 1024w" sizes="(max-width: 4160px) 100vw, 4160px" /></p>
+<p>From rubble, wreckage, and sweat, a new hope is born.</p>
+</article>    <div class='pagination'></div></main>
+<script src="../../../wp-content/themes/depictLife/script.js%3Fver=2.0.5" async></script>
+<footer>
+    <h2 class="footer-header">About Us</h2>
+    <p>Sentence Worthy is created by <span class="h-card vcard"><span class="p-name fn">Brandon Rozek</span></span> and <span class="h-card vcard"><span class="p-name fn">Tori Dayton</span></span></p>
+    <p class="footer-link"><a href="../../../about.html">Read More</a></p>
+</footer>
+<script type='text/javascript' src='../../../wp-includes/js/wp-embed.min.js%3Fver=9f3b8dc1682285c37912771046a2d39b'></script>
+</body>
+</html>

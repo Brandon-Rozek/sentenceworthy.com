@@ -1,0 +1,65 @@
+/*
+Service Worker implementation
+*/
+if ('serviceWorker' in navigator) {
+	navigator.serviceWorker.register('https://sentenceworthy.com/serviceworker.js', {scope: '/'});
+}
+/**
+Brandon's method for allowing 'fullscreen' posts
+
+Important info:
+----Class for the image when in 'fullscreen' mode is .fullscreen-image
+----Class for the text when in 'fullscreen' mode is .fullscreen-item
+----Class for the div that fades the background when in 'fullscreen' mode is .fullscreen-fade
+----It depends on the articles to be in the <main> tag
+----It depends on the images residing in an <article> tag
+**/
+if ('addEventListener' in document && 'removeEventListener' in document && document.getElementsByTagName('body')[0].classList && (document.getElementsByTagName('body')[0].nextElementSibling == null || document.getElementsByTagName('body')[0]) && document.getElementsByTagName('body')[0].parentElement && document.getElementsByTagName('body')[0].insertAdjacentHTML && document.getElementsByTagName('body')[0].setAttribute) {
+
+    var addFullscreenEvent = function (elements) {
+        for (var i = 0; i < elements.length; i++) {
+            elements[i].addEventListener('click', fullscreenImage);
+        }
+    }
+
+    var removeFullscreenEvent = function (elements) {
+        for (var i = 0; i < elements.length; i++) {
+            elements[i].removeEventListener('click', fullscreenImage);
+        }
+    }
+
+    var addFullscreenCaption = function (element) {
+        element.nextElementSibling.setAttribute('class', 'fullscreen-item');
+        if (element.nextElementSibling.nextElementSibling != null) {
+            addFullscreenCaption(element.nextElementSibling);
+        }
+    }
+
+    var removeFullscreenCaption = function (element) {
+        element.nextElementSibling.classList.remove('fullscreen-item');
+        if (element.nextElementSibling.nextElementSibling != null) {
+            removeFullscreenCaption(element.nextElementSibling);
+        }
+    }
+
+    var fullscreenImage = function () {
+        document.getElementsByTagName('main')[0].insertAdjacentHTML('afterbegin', "<div class='fullscreen-fade'></div>");
+        this.setAttribute('class', 'fullscreen-image');
+        addFullscreenCaption(this.parentElement);
+        removeFullscreenEvent(document.querySelectorAll('article img'));
+        document.getElementsByClassName('fullscreen-fade')[0].addEventListener('click', exitFullscreen);
+    }
+
+    var exitFullscreen = function () {
+            this.remove();
+            clickedImage = document.getElementsByClassName('fullscreen-image')[0];
+            clickedImage.classList.remove('fullscreen-image');
+            removeFullscreenCaption(clickedImage.parentElement);
+            addFullscreenEvent(document.querySelectorAll('article img'));
+
+        }
+        /**End method for allowing 'fullscreen' posts**/
+
+        //Start the 'fullscreen' method
+        addFullscreenEvent(document.querySelectorAll('article img'));
+}

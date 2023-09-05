@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Airplane &#8211; Sentence Worthy</title>
+	<atom:link href="https://sentenceworthy.com/archives/tag/airplane/feed/" rel="self" type="application/rss+xml" />
+	<link>https://sentenceworthy.com</link>
+	<description></description>
+	<lastBuildDate>Tue, 16 Aug 2016 21:36:25 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+<atom:link rel="hub" href="https://pubsubhubbub.appspot.com"/><atom:link rel="hub" href="https://pubsubhubbub.superfeedr.com"/>	<atom:link rel='hub' href='https://sentenceworthy.com/?pushpress=hub'/>
+<atom:link rel="search" type="application/opensearchdescription+xml" title="Search Sentence Worthy" href="https://sentenceworthy.com/wp-json/opensearch/1.1/document" />
+	<item>
+		<title>1.</title>
+		<link>https://sentenceworthy.com/archives/1/</link>
+		<pubDate>Wed, 15 Jul 2015 15:32:15 +0000</pubDate>
+		<dc:creator><![CDATA[Brandon Rozek]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Airplane]]></category>
+
+		<guid isPermaLink="false">http://sentenceworthy.com/?p=8</guid>
+		<description><![CDATA[<p>Eyes in the sky, heart on the ground.</p>
+<p>The post <a rel="nofollow" href="https://sentenceworthy.com/archives/1/">1.</a> appeared first on <a rel="nofollow" href="https://sentenceworthy.com">Sentence Worthy</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-58" src="http://sentenceworthy.com/wp-content/uploads/2015/07/0502151459b.jpg" alt="An airplane flying in the sky" width="2084" height="1228" srcset="https://sentenceworthy.com/wp-content/uploads/2015/07/0502151459b.jpg 2084w, https://sentenceworthy.com/wp-content/uploads/2015/07/0502151459b-300x177.jpg 300w, https://sentenceworthy.com/wp-content/uploads/2015/07/0502151459b-768x453.jpg 768w, https://sentenceworthy.com/wp-content/uploads/2015/07/0502151459b-1024x603.jpg 1024w" sizes="(max-width: 2084px) 100vw, 2084px" /></p>
+<p>Eyes in the sky,<br />
+heart on the ground.</p>
+<p>The post <a rel="nofollow" href="https://sentenceworthy.com/archives/1/">1.</a> appeared first on <a rel="nofollow" href="https://sentenceworthy.com">Sentence Worthy</a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>
